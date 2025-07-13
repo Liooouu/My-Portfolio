@@ -1,5 +1,7 @@
 /*{" "} <-- this forcibly adds white space to the texts*/
 
+import { ArrowDown } from "lucide-react";
+
 export const HeroSection = () => {
  return (
 
@@ -19,10 +21,24 @@ export const HeroSection = () => {
                         {" "}Apiado</span>
                 </h1>
 
-                <p className="animate-fade-in opacity-0 duration-100">this is my personal project which i will be using in future events</p>
+                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in delay-3">
+                    this is my personal project which i will be using in future events
+                </p>
 
+                <div className="pt-4 opacity-0 animate-fade-in delay-3">
+                    <a href="#projects" className="cosmic-button">
+                        View My Work
+                    </a>
+                </div>
             </div>
         </div>
+
+
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
+        <ArrowDown className="h-5 w-5 text-primary"/>
+        </div>
+
     </section>
  );
 };
