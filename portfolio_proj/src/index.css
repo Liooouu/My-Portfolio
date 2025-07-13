@@ -64,40 +64,43 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+  --background: 210 40% 60%;         
+  --foreground: 222 47% 15%;         
 
-    --card: 0 0% 100%;
+  --card: 0 0% 70%;                  
 
-    --primary: 250 47% 60%;
-    --primary-foreground: 210 40% 98%;
+  --primary: 250 47% 55%;            
+  --primary-foreground: 210 40% 93%; 
 
-    --border: 214 32% 91%;
-  }
+  --border: 214 32% 55%;             
+}
+
 
   .dark {
-    --background: 222 47% 4%;
-    --foreground: 213 31% 91%;
+  --background: 222 47% 2%;         
+  --foreground: 213 31% 85%;        
 
-    --card: 222 47% 8%;
+  --card: 222 47% 5%;               
 
-    --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
+  --primary: 250 65% 55%;           
+  --primary-foreground: 213 31% 90%; 
 
-    --border: 217 33% 20%;
-  }
+  --border: 217 33% 12%;            
+}
+
 
   * {
     @apply border-border;
   }
 
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth transition-colors duration-300;
   }
 
   body {
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
+    transition-property: background-color, color, opacity;
   }
 }
 
