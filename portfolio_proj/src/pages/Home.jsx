@@ -1,9 +1,11 @@
-import { ThemeToggle } from "../components/ThemeToggle"
+import { ThemeToggle } from "@/components/ThemeToggle"
 import { StarBackground} from "@/components/StarBackgrounds"
 import { Navbar } from "@/components/Navbar"
 import { HeroSection } from "@/components/HeroSection"
 import { AboutSection } from "@/components/AboutSection"
 import { SkillsSection } from "@/components/SkillsSection"
+import { ProjectsSection } from "@/components/ProjectsSection"
+import { ContactsSection } from "@/components/ContactsSection"
 
 export const Home = () => {
     return (
@@ -22,6 +24,8 @@ export const Home = () => {
                 <HeroSection/>
                 <AboutSection/>
                 <SkillsSection/>
+                <ProjectsSection/>
+                <ContactsSection/>
             </main>
 
             {/*Footer*/}

@@ -4,18 +4,18 @@ import { Menu, X } from 'lucide-react';
 
 
 const navItems = [
-    {name: "Home", href: "#about"},
+    {name: "Home", href: "#hero"},
     {name: "About", href: "#about"},
-    {name: "Skills", href: "#about"},
-    {name: "Projects", href: "#about"},
-    {name: "Contact", href: "#about"},
+    {name: "Skills", href: "#Skills"},
+    {name: "Projects", href: "#projects"},
+    {name: "Contact", href: "#contacts"},
 ];
 
 
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isMenuOpen, setIsMenuOpen] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
