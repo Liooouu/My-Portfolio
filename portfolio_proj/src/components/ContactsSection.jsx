@@ -4,7 +4,8 @@ import {
   MapPin,
   Phone,
   Send,
-  Facebook
+  Facebook,
+  Linkedin
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -96,6 +97,9 @@ export const ContactsSection = () => {
                 </a>
                 <a href="#" target="_blank">
                   <Instagram />
+                </a>
+                <a href="#" target="_blank">
+                  <Linkedin />
                 </a>
               </div>
             </div>
