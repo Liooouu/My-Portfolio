@@ -92,13 +92,13 @@ export const ContactsSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.facebook.com/john.lio.apiado" target="_blank">
                   <Facebook />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.Instagram.com/jihnlee_yu" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/john-lio-apiado-ab2557373/" target="_blank">
                   <Linkedin />
                 </a>
               </div>
