@@ -27,7 +27,7 @@ export const ThemeToggle = () => {
             setIsDarkMode(true);
         }
 
-        setTimeout(() => setTransitioning(false), 300);
+        setTimeout(() => setTransitioning(false), 500);
     };
 
     return (
