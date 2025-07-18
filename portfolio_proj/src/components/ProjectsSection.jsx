@@ -93,15 +93,13 @@ export const ProjectsSection = () => {
                         </div>
                     ))}
                 </div>
+
                 <div className="text-center mt-12">
                     <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/Liooouu">
                         check my github <ArrowRight size={16}/>
                     </a>
                 </div>
-
-
-
-
+                
             </div>
         </section>
     );
