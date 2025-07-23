@@ -4,7 +4,7 @@ const projects = [
     {
         id: 1,
         title: "History about the Philippine Colonialism",
-        description: "this is background about the philippines during  WW2, invaded by japanese soldiers.",
+        description: "A background about the philippines during  World War 2, invaded by japanese soldiers.",
         image: "/projects/Project1.png",
         tags: ["Html","Css","JavaScript"],
         demoUrl: "#",
@@ -22,11 +22,11 @@ const projects = [
     {
         id: 3,
         title: "Mini project word counter",
-        description: "My first mini project that counts word automatically.",
-        image: "/projects/Project2.png",
+        description: "My Qr code generator that navigates the user base on their search and has to scan it.",
+        image: "/projects/Qr.png",
         tags: ["ReactJs","tailwindCss","JavaScript"],
         demoUrl: "#",
-        githubUrl: "https://github.com/Liooouu/Word-Count",
+        githubUrl: "https://github.com/Liooouu/PersonalProj",
     },
 
 ];
