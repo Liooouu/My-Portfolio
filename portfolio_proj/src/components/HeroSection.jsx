@@ -17,7 +17,7 @@ export const HeroSection = () => {
                         {" "}I am</span>
                     <span className="text-primary opacity-0 animate-fade-in-delay-3">
                         {" "}Lio</span>
-                    <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-4">
+                    <span className="text-gradient opacity-0 animate-fade-in-delay-4">
                         {" "}Apiado</span>
                 </h1>
 
